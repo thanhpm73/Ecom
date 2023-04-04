@@ -7,7 +7,7 @@
       <class name="com.ecom.testCases.TC_Login_Excel_001">
         <methods>
           <include name="tearDown"/>
-          <include name="LoginExcel" invocation-numbers="1"/>
+          <include name="LoginExcel" invocation-numbers="0 1"/>
           <include name="setup"/>
         </methods>
       </class> <!-- com.ecom.testCases.TC_Login_Excel_001 -->

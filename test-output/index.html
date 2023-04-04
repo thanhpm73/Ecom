@@ -25,7 +25,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -92,7 +92,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">2 methods, 1 failed,   1 passed</span>
+                    <span class="method-stats">2 methods, 2 failed,   </span>
                   </li>
                   <li>
                     <span class="method-list-title failed">Failed methods</span>
@@ -103,24 +103,15 @@
                     <div class="method-list-content failed suite-Ecom">
                       <span>
                         <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Ecom" title="com.ecom.testCases.TC_Login_Excel_001" class="method navigator-link" hash-for-method="LoginExcel(demonew@gmail.com, 123456)">LoginExcel(demonew@gmail.com, 123456)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
                         <a href="#" panel-name="suite-Ecom" title="com.ecom.testCases.TC_Login_Excel_001" class="method navigator-link" hash-for-method="LoginExcel(demonew@gmail.com, vujUmfAg)">LoginExcel(demonew@gmail.com, vujUmfAg)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content failed suite-Ecom -->
-                  </li>
-                  <li>
-                    <span class="method-list-title passed">Passed methods</span>
-                    <span class="show-or-hide-methods passed">
-                      <a href="#" panel-name="suite-Ecom" class="hide-methods passed suite-Ecom"> (hide)</a> <!-- hide-methods passed suite-Ecom -->
-                      <a href="#" panel-name="suite-Ecom" class="show-methods passed suite-Ecom"> (show)</a> <!-- show-methods passed suite-Ecom -->
-                    </span>
-                    <div class="method-list-content passed suite-Ecom">
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Ecom" title="com.ecom.testCases.TC_Login_Excel_001" class="method navigator-link" hash-for-method="LoginExcel(demonew@gmail.com, 123456)">LoginExcel(demonew@gmail.com, 123456)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                    </div> <!-- method-list-content passed suite-Ecom -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -140,6 +131,36 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
+                  <a name="LoginExcel(demonew@gmail.com, 123456)">
+                  </a> <!-- LoginExcel(demonew@gmail.com, 123456) -->
+                  <span class="method-name">LoginExcel</span>
+                  <span class="parameters">(demonew@gmail.com,123456)</span>
+                  <div class="stack-trace">org.openqa.selenium.NoAlertPresentException: no such alert
+  (Session info: chrome=111.0.5563.147)
+Build info: version: &apos;4.8.2&apos;, revision: &apos;826dbfc730&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [79e724da1614490e286b5b68e95ad770, getAlertText {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.147, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\Users\hi\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:62762}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62762/devtoo..., se:cdpVersion: 111.0.5563.147, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 79e724da1614490e286b5b68e95ad770
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:598)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.alert(RemoteWebDriver.java:1079)
+	at com.ecom.testCases.TC_Login_Excel_001.LoginExcel(TC_Login_Excel_001.java:47)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
                   <a name="LoginExcel(demonew@gmail.com, vujUmfAg)">
                   </a> <!-- LoginExcel(demonew@gmail.com, vujUmfAg) -->
                   <span class="method-name">LoginExcel</span>
@@ -150,9 +171,9 @@ For documentation on this error, please visit: https://selenium.dev/exceptions/#
 Build info: version: &apos;4.8.2&apos;, revision: &apos;826dbfc730&apos;
 System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [614c233fd267c14eb85b762e995de302, findElement {using=name, value=email}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.147, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\Users\hi\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:65391}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:65391/devtoo..., se:cdpVersion: 111.0.5563.147, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 614c233fd267c14eb85b762e995de302
+Command: [79e724da1614490e286b5b68e95ad770, findElement {using=name, value=email}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.147, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\Users\hi\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:62762}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62762/devtoo..., se:cdpVersion: 111.0.5563.147, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 79e724da1614490e286b5b68e95ad770
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
@@ -167,7 +188,7 @@ Session ID: 614c233fd267c14eb85b762e995de302
 	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
 	at jdk.proxy2/jdk.proxy2.$Proxy21.sendKeys(Unknown Source)
-	at com.ecom.pageObjects.LoginPage.setUserName(LoginPage.java:34)
+	at com.ecom.pageObjects.LoginPage.setUserName(LoginPage.java:37)
 	at com.ecom.testCases.TC_Login_Excel_001.LoginExcel(TC_Login_Excel_001.java:19)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 ... Removed 32 stack frames
@@ -176,22 +197,6 @@ Session ID: 614c233fd267c14eb85b762e995de302
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-Ecom-class-failed -->
-          <div class="suite-Ecom-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">com.ecom.testCases.TC_Login_Excel_001</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="LoginExcel(demonew@gmail.com, 123456)">
-                  </a> <!-- LoginExcel(demonew@gmail.com, 123456) -->
-                  <span class="method-name">LoginExcel</span>
-                  <span class="parameters">(demonew@gmail.com,123456)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Ecom-class-passed -->
         </div> <!-- panel Ecom -->
         <div panel-name="test-xml-Ecom" class="panel">
           <div class="main-panel-header rounded-window-top">
@@ -249,16 +254,16 @@ data.addRows(2);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'LoginExcel')
 data.setCell(0, 2, 'com.ecom.testCases.TC_Login_Excel_001')
-data.setCell(0, 3, 10038);
+data.setCell(0, 3, 10080);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'LoginExcel')
 data.setCell(1, 2, 'com.ecom.testCases.TC_Login_Excel_001')
-data.setCell(1, 3, 4993);
+data.setCell(1, 3, 9177);
 window.suiteTableData['Ecom']= { tableData: data, tableDiv: 'times-div-Ecom'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 15 seconds</span>
+              <span class="suite-total-time">Total running time: 19 seconds</span>
               <div id="times-div-Ecom">
               </div> <!-- times-div-Ecom -->
             </div> <!-- times-div -->
@@ -290,18 +295,20 @@ return data;
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">LoginExcel(demonew@gmail.com, 123456)</span>
-                <span class="method-start">3354 ms</span>
+                <span class="method-start">5142 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">LoginExcel(demonew@gmail.com, vujUmfAg)</span>
-                <span class="method-start">8349 ms</span>
+                <span class="method-start">14330 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">18393 ms</span>
+                <span class="method-start">24416 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

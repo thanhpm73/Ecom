@@ -8,7 +8,7 @@
       <parameter name="browser" value="chrome"/>
       <classes>
    
-      <!--  <class name='com.ecom.testCases.TC_Login_001'></class> -->
+    <!--   <class name='com.ecom.testCases.TC_Login_001'></class> -->
      <class name='com.ecom.testCases.TC_Login_Excel_001'></class>  
        <!--	<class name='com.inetbanking.testCases.TC_AddCustomerTest_003'></class>-->
       </classes>

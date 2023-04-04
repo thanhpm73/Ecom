@@ -28,6 +28,9 @@ public class LoginPage {
 	@FindBy(name = "commit")
 	WebElement btnclicklogin;
 	
+	@FindBy(id="notice")
+	WebElement labelnoti;
+	
 	public void setUserName(String uname)
 	{
 		
@@ -41,5 +44,10 @@ public class LoginPage {
 	{
 		btnclicklogin.click();
 	}
+	public String setNotification()
+	{
+		return labelnoti.getTagName();
+	}
+	
 	
 }
