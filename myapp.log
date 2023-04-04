@@ -1,0 +1,10 @@
+2023-04-03 16:22:55 INFO  eBanking:19 - Url is opened
+2023-04-03 16:22:55 INFO  eBanking:23 - Enter username
+2023-04-03 16:22:55 INFO  eBanking:26 - Enter password
+2023-04-03 16:22:56 INFO  eBanking:32 - Login test passed
+2023-04-03 16:34:03 INFO  eBanking:20 - User name provided
+2023-04-03 16:34:03 INFO  eBanking:23 - password provided
+2023-04-03 16:34:07 WARN  eBanking:39 - Login Passed
+2023-04-03 16:42:11 INFO  eBanking:20 - User name provided
+2023-04-03 16:42:11 INFO  eBanking:23 - password provided
+2023-04-03 16:42:15 WARN  eBanking:36 - Login Failed

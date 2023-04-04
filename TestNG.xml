@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Ecom">
+	<!--  <listeners>
+		<listener class-name='com.inetbanking.utilities.Reporting'></listener>
+	</listeners> -->
+  <test name="Ecom">
+      <parameter name="browser" value="chrome"/>
+      <classes>
+   
+      <!--  <class name='com.ecom.testCases.TC_Login_001'></class> -->
+     <class name='com.ecom.testCases.TC_Login_Excel_001'></class>  
+       <!--	<class name='com.inetbanking.testCases.TC_AddCustomerTest_003'></class>-->
+      </classes>
+    	
+  </test>
+</suite>

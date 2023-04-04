@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Ecom]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Ecom(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.ecom.testCases.TC_Login_Excel_001">
+        <methods>
+          <include name="tearDown"/>
+          <include name="LoginExcel" invocation-numbers="1"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.ecom.testCases.TC_Login_Excel_001 -->
+    </classes>
+  </test> <!-- Ecom(failed) -->
+</suite> <!-- Failed suite [Ecom] -->
